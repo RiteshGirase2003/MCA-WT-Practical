@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Form - After</title>
+    <style>
+        body {
+            margin: none;
+            padding: none;
+            box-sizing: border-box;
+            background-color: yellow;
+            font-family: Arial, sans-serif;
+        }
+
+        
+        h1 {
+            font-size: 6pt;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+        <h1>Project Details Form</h1>
+        <form>
+            <!-- Project Name Input -->
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" name="projectName"><br><br>
+
+            <!-- Assigned To Dropdown -->
+            <label for="assignedTo">Assigned To:</label>
+            <select id="assignedTo" name="assignedTo">
+                <option value="John">John</option>
+                <option value="Jane">Jane</option>
+                <option value="Doe">Doe</option>
+            </select><br><br>
+
+            <!-- Start Date Input -->
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate"><br><br>
+
+            <!-- End Date Input -->
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate"><br><br>
+
+            <!-- Priority Radio Buttons -->
+            <label for="priority">Priority:</label><br>
+            <input type="radio" id="high" name="priority" value="high">
+            <label for="high">High</label><br>
+
+            <input type="radio" id="average" name="priority" value="average">
+            <label for="average">Average</label><br>
+
+            <input type="radio" id="low" name="priority" value="low">
+            <label for="low">Low</label><br><br>
+
+            <!-- Description Text Area -->
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
