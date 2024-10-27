@@ -1,0 +1,80 @@
+<!-- Bootstrap is a CSS framework that simplifies web design
+with ready-made components
+and responsive layouts, making it faster and easier to create modern,
+mobile-friendly websites. -->
+
+<!-- Why We Use Bootstrap:
+
+- Quick Development: It speeds up the design process with ready-made components.
+- Responsive Design: Websites automatically adjust to different screen sizes.
+- Consistency: Ensures a uniform look across browsers and devices.
+- Customizable: Offers flexible theming options and can be tailored as needed.
+ -->
+
+<!-- 
+How to use Bootstrap in HTML code 
+
+Add the Bootstrap CSS link in the <head> section:
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+Add Bootstrap's JavaScript and jQuery links before the closing </body> tag:
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Card Layout</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-4 border border-primary">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 1</h5>
+            <p class="card-text">This is a short description for the first card. Add more relevant information here.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 2</h5>
+            <p class="card-text">This is a short description for the second card. Add more relevant information here.</p>
+            <a href="#" class="btn btn-success">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 3</h5>
+            <p class="card-text">This is a short description for the third card. Add more relevant information here.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (jQuery and Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
