@@ -1,0 +1,45 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px red solid;
+}
+
+.title{
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.bbbb{
+    text-align: center;
+}
+
+.rm-2{
+    margin-bottom: 2px;
+}
+.rm-6{
+    margin-bottom: 6px;
+}
+.rm-8{
+    margin-bottom: 8px;
+}
+
+
+.d-1{
+    width: 90%;
+    border-bottom: 1px solid grey;    
+}
+
+.d-2{
+    width: 90%;
+    border-bottom: 2px solid grey;    
+}
+
+.d-3{
+    width: 90%;
+    border-bottom: 3px solid grey;    
+}

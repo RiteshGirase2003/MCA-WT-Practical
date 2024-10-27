@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of Persons</title>
+  <style>
+    /* Styling the table */
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      border: 2px solid #333;
+      border-radius: 8px;
+    }
+    
+    /* Styling table headers and cells */
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border: 1px solid #333;
+    }
+    
+    /* Styling the table header */
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    
+    /* Adding border radius to table and cells */
+    table, th:first-child, td:first-child {
+      border-radius: 8px 0 0 8px;
+    }
+    th:last-child, td:last-child {
+      border-radius: 0 8px 8px 0;
+    }
+    .title{
+        width: 700px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  
+  <table>
+    <thead>
+        <tr>
+            <th class="title">List of Persons</th>
+             
+        </tr>
+    
+      <tr>
+        <th>Sr No</th>
+        <th>Person Name</th>
+        <th>Age</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+        <td>28</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Maria Garcia</td>
+        <td>34</td>
+        <td>Spain</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Yuki Tanaka</td>
+        <td>29</td>
+        <td>Japan</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

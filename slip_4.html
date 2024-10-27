@@ -1,0 +1,103 @@
+<!-- HTML Table Tags
+<table>: The main container for the table.
+<thead>: Groups the header content of the table.
+<tbody>: Groups the body content of the table.
+<tfoot>: Groups the footer content of the table.
+<tr>: Defines a table row.
+<th>: Defines a header cell in a table.
+<td>: Defines a standard data cell in a table.
+<caption>: Provides a title or summary for the table.
+ -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table Example</title>
+  <!-- Bootstrap CSS -->
+  <!-- This link loads Bootstrap CSS from a CDN, providing access to Bootstrap's styling and classes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- The "container" class centers content and adds padding around the table, making it responsive -->
+  <div class="container mt-5">
+    
+    <!-- "mt-5" adds a large margin on the top of this container for spacing from the top of the page -->
+    <h2 class="mb-4">User Information</h2>
+    
+    <!-- "mb-4" adds a medium-sized bottom margin, creating space between the heading and the table below -->
+    
+    <!-- "table" is a Bootstrap class that applies basic styling to tables: light padding, borders, and hover effects -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th >First Name</th>
+          <th >Last Name</th>
+          <th >Email ID</th>
+
+        </tr>
+
+        
+      </thead>
+      <tbody>
+        <!-- Each "tr" tag represents a new row in the table's body section -->
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>john.doe@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>jane.smith@example.com</td>
+        </tr>
+        <tr>
+          <td>Michael</td>
+          <td>Johnson</td>
+          <td>michael.j@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="container">
+    <h1> Sample Table </h1>
+    <table class="table">
+        <caption>Student Information</caption>
+        <thead>
+            <tr>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Email ID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+  </div>
+
+
+  <!-- Bootstrap JavaScript bundle (optional) - This script adds Bootstrap's interactive components and functionality -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

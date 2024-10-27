@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!-- Defines the document type and version of HTML being used (HTML5 in this case) -->
+<html lang="en">
+<!-- The root element of the HTML document, with a language attribute set to English -->
+
+<head>
+  <!-- Contains meta-information about the HTML document, such as metadata, title, and links to styles/scripts -->
+  <meta charset="UTF-8">
+  <!-- Specifies the character encoding for the document (UTF-8 supports a wide range of characters) -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Ensures the webpage is responsive and sets the initial scale for mobile devices -->
+
+  <title>Informative Web Page</title>
+  <!-- Defines the title of the webpage, shown in the browser tab -->
+
+  <style>
+    /* CSS styling for the HTML elements is written here */
+    /* Style for the <body> tag to set font, remove margins and padding */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Styling for header section with logo and background color */
+    header {
+      display: flex;
+      align-items: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+    }
+    
+    /* Sets the size and margin for the logo image */
+    header img {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+    }
+    
+    /* Styling for the navigation menu (nav element) */
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    
+    /* Styling for individual navigation links */
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Hover effect for navigation links */
+    nav a:hover {
+      background-color: #ddd;
+      color: red;
+    }
+    
+    /* Styling for the table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    /* Styles for table, table headers, and table cells */
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    /* Background color for table headers */
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    /* Style for the main content section */
+    .content {
+      padding: 20px;
+    }
+    
+    /* Sets image size and margin within the content */
+    .content img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px 0;
+    }
+    
+    /* Styling for footer, with background and fixed position */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The main body content, rendered on the webpage -->
+  
+  <!-- Header section containing the logo and page title -->
+  <header>
+    <img src="image.png" alt="Logo">
+    <!-- Image element for the logo with a source path and alt text -->
+    <h1>Welcome to Our Informative Page</h1>
+    <!-- Heading element with page title -->
+  </header>
+
+  <!-- Navigation bar with hyperlinks to other sections or pages -->
+  <nav>
+    <a href="file:///E:/AI%20ML%20MCA%20Class/WT/slip_4.html">Home</a>
+    <a href="file:///E:/AI%20ML%20MCA%20Class/WT/slip_5.html">About</a>
+    <a href="file:///E:/AI%20ML%20MCA%20Class/WT/slip_4.html">Services</a>
+    <a href="https://meet.google.com/kta-tveu-mfk" target="_blank">Contact</a>
+    <!-- <a> tags represent hyperlinks to navigate to different sections or pages -->
+  </nav>
+
+  <!-- Main content area where information and media are displayed -->
+  <div class="content">
+    <!-- Content section with information about the mission -->
+    <h2>Our Mission</h2>
+    <p>We are dedicated to providing high-quality services that help our clients achieve their goals.</p>
+    <!-- Paragraph with mission statement -->
+
+    <!-- Gallery section with images -->
+    <h2>Gallery</h2>
+    <img src="image.png" alt="Sample Picture">
+    <img src="image.png" alt="Sample Picture">
+    <img src="image.png" alt="Sample Picture">
+    <!-- Image elements displaying gallery pictures -->
+
+    <!-- Table with structured data on the team members -->
+    <h2>Our Team</h2>
+    <table>
+      <!-- Table row for header information -->
+      <tr>
+        <th>Sr No</th>
+        <th>Person Name</th>
+        <th>Role</th>
+        <th>Country</th>
+      </tr>
+      <!-- Table rows with data entries -->
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+        <td>Project Manager</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane Smith</td>
+        <td>Lead Developer</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ahmed Khan</td>
+        <td>Data Scientist</td>
+        <td>India</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Footer section with copyright information -->
+  <footer>
+    <p>&copy; 2024 Our Informative Page. All rights reserved.</p>
+    <!-- Paragraph element with copyright text -->
+  </footer>
+
+</body>
+</html>
