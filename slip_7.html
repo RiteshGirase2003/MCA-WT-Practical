@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Text Effect</title>
+  <style>
+    /* Body styling */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Initial styling for normal text */
+    .text-3d {
+      font-size: 5rem;
+      font-weight: bold;
+      color: #4a4a4a;
+      margin: 0;
+      /* transition: all 0.3s ease;  */
+    }
+
+    /* 3D text effect on hover */
+    .text-3d:hover {
+      color: red;
+      text-shadow: 1px 1px 1px red,
+      2px 2px 1px rgb(242, 0, 0),
+      3px 3px 1px rgb(220, 0, 0),
+      4px 4px 1px rgb(210, 0, 0);
+      /* text-shadow: 
+        1px 1px 1px #444,
+        2px 2px 2px #444,
+        3px 3px 3px #333,
+        4px 4px 4px #222,
+        5px 5px 5px #111,
+        6px 6px 6px #000; */
+    }
+  </style>
+</head>
+<body>
+  <h1 class="text-3d">3D Text Effect</h1>
+</body>
+</html>
