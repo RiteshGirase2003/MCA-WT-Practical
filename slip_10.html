@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Effects</title>
+    <style>
+        /* Styling the container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: red;
+        }
+
+        
+        /* Styling the box */
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transition-property: background-color,height,font-size, width, transform;
+
+            transition-duration: 3s;
+
+            transition-delay: 0.1s;
+
+            border-radius: 8px;
+        }
+
+        /* Applying effects on hover */
+        .box:hover {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" >
+            <h1  >Hello</h1>
+        </div>
+    </div>
+</body>
+</html>

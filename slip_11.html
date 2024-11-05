@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Web Page</title>
+    <style>
+        /* Basic styling for the layout */
+        body {
+            font-family: Arial, sans-serif; /* Sets a default font for the page */
+            margin: 0; /* Removes default margin */
+            display: flex;
+            flex-direction: column; /* Stacks header and content vertically */
+            height: 100vh; /* Makes the page fill the full viewport height */
+        }
+        
+        #headerFrame {
+            height: 5%; /* Sets header height to 20% of the viewport */
+            background-color: #f0f0f0; /* Light grey background color */
+            text-align: center; /* Centers text horizontally */
+            font-size: 24px; /* Sets font size for header text */
+            font-weight: bold; /* Makes header text bold */
+            padding: 20px; /* Adds padding to the header */
+        }
+        
+        #content {
+            display: flex; /* Sets up a horizontal flex layout */
+            flex: 1; /* Allows content area to take up remaining space */
+            overflow: hidden; /* Prevents content overflow */
+        }
+        
+        #leftFrame {
+            width: 20%; /* Sets left panel width to 20% of content area */
+            background-color: #e0e0e0; /* Light grey background color */
+            padding: 15px; /* Adds padding to left panel */
+            box-sizing: border-box; /* Includes padding in total width */
+        }
+        
+        #rightFrame {
+            flex: 1; /* Allows right panel (iframe) to take remaining space */
+            border: none; /* Removes default iframe border */
+            width: 100%; /* Ensures iframe fills available space */
+        }
+
+        /* Link styling */
+        
+        
+
+        a {
+            text-decoration: none; /* Removes underline from links */
+            color: #333; /* Sets link color to dark grey */
+            display: block; /* Makes each link occupy full line width */
+            margin: 10px 0; /* Adds vertical spacing between links */
+        }
+        
+        a:hover {
+            color: #269900; /* Changes link color to blue on hover */
+        }
+
+        a:active{
+            color:blue;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="headerFrame">
+        Company XYZ <!-- Header text, shows company name -->
+    </div>
+
+    <!-- Main Content Section with Left and Right Panels -->
+    <div id="content">
+        <!-- Left Section with Department Links -->
+        <div id="leftFrame">
+            <h3>Departments</h3> <!-- Title for the list of departments -->
+            <!-- Links to different department pages, which open in the iframe -->
+            <a href="hr.html" target="rightFrame">Human Resources</a>
+            <a href="it.html" target="rightFrame">IT</a>
+            <a href="marketing.html" target="rightFrame">Marketing</a>
+            <a href="sales.html" target="rightFrame">Sales</a>
+        </div>
+
+        <!-- Right Section to Display Department Content -->
+        <!-- The iframe displays the content of department pages -->
+        <iframe id="rightFrame" name="rightFrame"></iframe>
+    </div>
+
+</body>
+</html>
