@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background : rgb(192, 232, 255);
+    margin-bottom: 8px;
+    padding:8px 4px 4px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border:2px dashed white;
+    
+}
+
+.header nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a{
+    text-decoration: none;
+    color:blueviolet;
+    border-bottom: 2px solid white;
+    padding: 2px;
+}
+
+.header nav a:active{
+    text-decoration: none;
+    color:green;
+    border-bottom: 2px solid greenyellow;
+    padding: 2px;
+}
+
+.header nav a:visited{
+    text-decoration: none;
+    color:blueviolet
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside-section{
+    border:1px solid rgb(240, 240, 240);
+    width:20%;
+    padding: 4px;
+}
+
+.main-section{
+    border:1px solid rgb(240, 240, 240);
+    width:72%;
+    padding: 4px;
+
+}
+
+h2, h4, h5{
+    text-align: center;
+}
+
+.img-gallary{
+    border:1px solid rgb(240, 240, 240);
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y:hidden;
+
+    /* scrollbar-width: none; */
+}
+
+.img-gallary .card{
+    width: 300px;
+    height: 350px;
+    border:1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+    /* padding:4px; */
+    text-align: center;
+    margin-right: 8px;
+}
+
+.img-gallary .card img{
+    width:300px;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
